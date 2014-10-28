@@ -1,6 +1,7 @@
 %math
+\ProvidesPackage{mathhelper}
 
-\usepackage{amsmath, amssymb, amsfonts, amsthm, mathtools, enumitem, stmaryrd, stmaryrd, mathrsfs}
+\RequirePackage{amsmath, amssymb, amsfonts, amsthm, mathtools, enumitem, stmaryrd, stmaryrd, mathrsfs}
 
 \newcommand{\A}{\mathbb{A}}
 \newcommand{\B}{\mathbb{B}}
@@ -70,3 +71,5 @@
 \item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
 \newenvironment{theorem}[1][Theorem.]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+\endinput
