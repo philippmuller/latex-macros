@@ -1,0 +1,74 @@
+%math
+
+\usepackage{amsmath, amssymb, amsfonts, amsthm, mathtools, enumitem, stmaryrd, stmaryrd, mathrsfs}
+
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\B}{\mathbb{B}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\M}{\mathbb{M}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\renewcommand{\L}{\mathbb{L}}
+\newcommand{\lagr}{\mathscr{L}}
+
+\newcommand{\bp}[1]{\left( #1 \right)}
+\newcommand{\br}[1]{\left[ #1 \right]}
+\newcommand{\bc}[1]{\left\{ #1 \right\}}
+\newcommand{\ba}[1]{\left\langle #1 \right\rangle}
+
+\newcommand{\eqcl}[1]{[\![ #1 ]\!]}
+
+\newcommand{\abs}[1]{\lvert #1 \rvert}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\norm}[1]{\lVert #1 \rVert}
+
+\renewcommand{\exp}[1]{\operatorname{exp} \left\{ #1 \right\}}
+\renewcommand{\ln}[1]{\operatorname{ln} \left( #1 \right)}
+
+\newcommand{\pr}[1]{\operatorname{Pr} \left( #1 \right)}
+
+\newcommand{\e}[1]{\mathbb{E} \left[ #1 \right]}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\eu}[1]{\mathbb{EU} \left[ #1 \right]}
+\newcommand{\cov}[1]{\mathbb{C}\mathrm{ov} \left( #1 \right)}
+\newcommand{\var}[1]{\mathbb{V}\mathrm{ar} \left( #1 \right)}
+
+\newcommand{\tr}[1]{\operatorname{tr} \left( #1 \right)}
+\newcommand{\adj}[1]{\operatorname{adj} \left( #1 \right)}
+\newcommand{\sgn}[1]{\operatorname{sgn} \left( #1 \right)}
+\newcommand{\diag}[1]{\operatorname{diag} \left( #1 \right)}
+\newcommand{\rank}[1]{\operatorname{rank} \left( #1 \right)}
+\newcommand{\spec}[1]{\operatorname{spec} \left( #1 \right)}
+
+\newcommand\given[1][]{\:#1\vert\:}
+
+\newcommand{\argmax}{\operatorname{arg} \, \operatornamewithlimits{max}}
+\newcommand{\argmin}{\operatorname{arg} \, \operatornamewithlimits{min}}
+
+\newcommand{\notimplies}{%
+  \mathrel{{\ooalign{\hidewidth$\not\phantom{=}$\hidewidth\cr$\implies$}}}}
+
+\newcommand{\st}{\quad \mathrm{s.t.} \quad}
+\renewcommand{\d}{\, \mathrm{d}}
+
+\newenvironment{mx}{\begin{matrix}}{\end{matrix}}
+\newenvironment{bmx}{\begin{bmatrix}}{\end{bmatrix}}
+\newenvironment{Bmx}{\begin{Bmatrix}}{\end{Bmatrix}}
+\newenvironment{pmx}{\begin{pmatrix}}{\end{pmatrix}}
+\newenvironment{vmx}{\begin{vmatrix}}{\end{vmatrix}}
+\newenvironment{Vmx}{\begin{Vmatrix}}{\end{Vmatrix}}
+
+\newenvironment{definition}[1][Definition.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{lemma}[1][Lemma.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{beispiel}[1][Beispiel.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{beweis}[1][Beweis.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{theorem}[1][Theorem.]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
